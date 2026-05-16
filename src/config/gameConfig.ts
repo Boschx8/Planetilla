@@ -1,0 +1,14 @@
+export const GAME_WIDTH = 480
+export const GAME_HEIGHT = 720
+
+export const WALL_THICKNESS = 20
+export const DROP_ZONE_Y = 100
+
+export const GRAVITY = 1200
+
+export const MERGE_COOLDOWN_MS = 300
+
+export const PROGRESSION_PANEL_HEIGHT = 80
+
+export const SCORE_EXPLOSION_THRESHOLD = 200
+export const SCORE_EXPLOSION_INCREMENT = 300
