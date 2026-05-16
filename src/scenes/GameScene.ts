@@ -390,6 +390,8 @@ export class GameScene extends Phaser.Scene {
     this.pendingPlanet = new Planet(this, x, DROP_ZONE_Y - spawnR - 5, spawnId)
     this.pendingPlanet.setStatic(true)
     this.pendingPlanet.setDepth(12)
+    this.tweens.killTweensOf(this.pendingPlanet)
+    this.pendingPlanet.setAlpha(1)
     this.planets.push(this.pendingPlanet)
 
     // Sensor mode: detects collisions but applies zero physical forces
